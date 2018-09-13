@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  tbetplatform
+//
+//  Created by Ric on 11/4/2017.
+//  Copyright © 2017 Ric. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "MacroDefinition.h"
+
+#import "UIViewExt.h"
+
+#import "UIView+ViewController.h"
+
+#import "HttpRequest.h"
+
+#import "FunctionExt.h"
+
+#import "NSString+wrapper.h"
+
+#import "RequestTool.h"
+
+#import "UIImageView+WebCache.h"
+
+#endif /* PrefixHeader_pch */

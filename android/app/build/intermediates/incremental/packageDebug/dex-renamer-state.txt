@@ -1,0 +1,4 @@
+#Wed Aug 16 17:50:10 PHT 2017
+base.0=/Users/Ric/Desktop/gitTB/TBetRN/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/Ric/Desktop/gitTB/TBetRN/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

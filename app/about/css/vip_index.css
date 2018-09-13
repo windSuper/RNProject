@@ -1,0 +1,305 @@
+img{
+    width: 100%;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+.buttons-tab .nav_bar.laohuji {
+    color: #fff;
+    background-color: #0f1424;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+.buttons-tab  .nav_bar.fanshui{
+    color: #fff;
+    background-color: #0f1424;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+.buttons-tab .nav_bar.laohuji.active{
+    color: #ffd08c;
+    background:url("../img/vip_power/vip_button.png") no-repeat center;
+    background-size: 100% 120%;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+.buttons-tab .nav_bar.fanshui.active{
+    color: #ffd08c;
+    background:url("../img/vip_power/vip_button.png") no-repeat center;
+    background-size: 100% 120%;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+.buttons-tab:after{
+    display: none;
+}
+
+.vip_nav{
+    background: url("../img/vip_power/background.png") no-repeat top;
+    background-size: 100%;
+    line-height: 14rem;
+    position: relative;
+    text-align: center;
+}
+
+.bg{
+    margin: 0;
+    padding: 0;
+}
+.buttons-tab.level{
+   background-color: transparent;
+}
+.buttons-tab .button.level_1{
+    display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/vip_ordinary.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+    margin-top: 1.5rem;
+    color: #fff;
+    position: relative;
+}
+.buttons-tab .button.level_1.active{
+    display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/vip_ordinary_hover.png") no-repeat center;
+    background-size: 3rem;
+    border: none;
+
+    margin-top: 1.5rem;
+    color: #ffd08c;
+    position: relative;
+}
+.buttons-tab .button.level_2{
+    display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/vip_silver.png") no-repeat center;
+    background-size: 3rem;
+    border: none;
+    margin-top: 1.5rem;
+    color: #fff;
+    position: relative;
+}
+.buttons-tab .button.level_2.active{
+    display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/vip_silver_hover.png") no-repeat center;
+    background-size: 3rem;
+    border: none;
+
+    margin-top: 1.5rem;
+    color: #ffd08c;
+    position: relative;
+}
+.buttons-tab .button.level_3{
+    display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/vip_gold.png") no-repeat center;
+    background-size: 3rem;
+    border: none;
+ 
+    margin-top: 1.5rem;
+    color: #fff;
+    position: relative;
+}
+.buttons-tab .button.level_3.active{
+    display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/vip_gold_hover.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+
+    margin-top: 1.5rem;
+    color: #ffd08c;
+    position: relative;
+}
+.buttons-tab .button.level_4{
+    display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/vip_master.png") no-repeat center;
+    background-size: 3rem;
+    border: none;
+    margin-top: 1.5rem;
+    color: #fff;
+    position: relative;
+}
+.buttons-tab .button.level_4.active{
+    display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/vip_master_hover.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+
+    margin-top: 1.5rem;
+    color: #ffd08c;
+    position: relative;
+}
+.buttons-tab .button.level2_2{
+	 display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/level2_2.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+     color: #fff;
+    margin-top: 1.5rem;
+    position: relative;
+}
+.buttons-tab .button.level2_2.active{
+	 display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/level2_2_hover.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+    margin-top: 1.5rem;
+    color: #ffd08c;
+    position: relative;
+}
+.buttons-tab .button.level2_3{
+	 display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/level2_3.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+	color: #fff;
+    margin-top: 1.5rem;
+    position: relative;
+}
+.buttons-tab .button.level2_3.active{
+	 display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/level2_3_hover.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+
+    margin-top: 1.5rem;
+    color: #ffd08c;
+    position: relative;
+}
+.buttons-tab .button.level2_4{
+	 display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/level2_4.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+
+    margin-top: 1.5rem;
+    color: #fff;
+    position: relative;
+}
+.buttons-tab .button.level2_4.active{
+	 display: inline-block;
+    height: 6.5rem;
+    background: url("../img/vip_power/level2_4_hover.png") no-repeat center;
+    background-size:3rem;
+    border: none;
+
+    margin-top: 1.5rem;
+    color: #ffd08c;
+    position: relative;
+}
+.vip_nav hr{
+    position: absolute;
+    width: 70%;
+   border-color: #ffd08c;
+    left:14%;
+    top:54%
+}
+.font_c{
+    margin-top: 0.5rem;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 0.7rem;
+    letter-spacing: normal;
+}
+.font_d{
+    margin-top: 0.5rem;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 0.6rem;
+    letter-spacing: normal;
+}
+.shuxian{
+    display: inline-block;
+    height: 0.6rem;
+    width: 0.3rem;
+    border-left: 2px solid #ffd08c;
+}
+.num{
+    font-size: 0.6rem;
+    color: #ffd08c ;
+    letter-spacing: normal;
+}
+.num_right{
+    font-size: 0.55rem;
+    color: #ffd08c ;
+    letter-spacing: normal;
+    margin-right: 2%;
+}
+.ul_img{
+    width: 96%;
+    margin-left: 2%;
+    overflow: hidden;
+}
+.ul_img li{
+    float: left;
+    height:7em;
+    width: 33.3%;
+    border: 1px solid #ffd08c;
+    text-align: center;
+
+}
+li>img{
+    width:55%;
+    margin-top: 5%;
+    max-width: 3rem;
+}
+.font_c_img{
+    margin-top:-0.2rem;
+    color: #a37e4e;
+    margin-bottom:0.3rem;
+    font-size: 0.6rem;
+}
+
+.dayu{
+    float: right;
+    width: 0.6rem;
+    margin-right: 1%;
+    margin-top: 0.1rem;
+}
+.font_b{
+    float: right;
+    margin-right: 2%;
+    color: #10e7ff;
+    font-size: 0.6rem;
+}
+.level_condition{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 2%;
+}
+.font_bg{
+    background-color: #383838;
+    width: 100%;
+    padding-left:2% ;
+    font-size: 0.7rem;
+    color: #fff;
+    margin-top: .2rem;
+}
+.font_laohuji{
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 0.5rem;
+}
+.level_discription{
+    font-size: 0.6rem;
+    color: #fff;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.content{
+    padding-bottom: 5%;
+}
+.level_sort{
+    font-size: 0.6rem;
+}

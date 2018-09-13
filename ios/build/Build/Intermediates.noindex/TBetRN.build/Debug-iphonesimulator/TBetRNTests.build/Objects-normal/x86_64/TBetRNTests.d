@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/TBetRNTests/TBetRNTests.m \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/TBetRN/Root/Main/PrefixHeader.pch \
+  TBetRN/Root/Main/MacroDefinition.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/TBetRN/Root/Category/UIViewExt.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/TBetRN/Root/Category/UIView+ViewController.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/TBetRN/Root/FunctionExt/HttpRequest.h \
+  Pods/AFNetworking/AFNetworking/AFNetworking.h \
+  Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h \
+  Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h \
+  Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h \
+  Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h \
+  Pods/AFNetworking/AFNetworking/AFURLSessionManager.h \
+  Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/TBetRN/Root/FunctionExt/FunctionExt.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/TBetRN/Root/Category/NSString+wrapper.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/TBetRN/Root/FunctionExt/RequestTool.h \
+  Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h \
+  Pods/SDWebImage/SDWebImage/SDWebImageCompat.h \
+  Pods/SDWebImage/SDWebImage/SDWebImageManager.h \
+  Pods/SDWebImage/SDWebImage/SDWebImageOperation.h \
+  Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h \
+  Pods/SDWebImage/SDWebImage/SDImageCache.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/zonecite/Desktop/RNVersion/TBetRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

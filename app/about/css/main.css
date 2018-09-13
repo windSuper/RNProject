@@ -1,0 +1,749 @@
+.content {
+	max-width: 640px;
+	margin: 0 auto
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #110f17;
+	height: 50px;
+	outline-offset: -2px;
+	outline: 2px solid #110f17;
+	-webkit-border-radius: 4px;
+	border: 0
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #110f17;
+	height: 50px;
+	-webkit-border-radius: 4px
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #0c0a12;
+	-webkit-border-radius: 0
+}
+
+@font-face {
+	font-family: "iconfont";
+	src: url("../font/iconfont.eot?t=1484534785134");
+	src: url("../font/iconfont.eot?t=1484534785134#iefix") format('embedded-opentype'), url('../font/iconfont.woff?t=1484534785134') format('woff'), url('../font/iconfont.ttf?t=1484534785134') format('truetype'), url('../font/iconfont.svg?t=1484534785134#iconfont') format('svg')
+}
+
+.tb-iconfont {
+	font-family: "iconfont" !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.tb-icon {
+	display: inline-block;
+	margin-right: 0.5rem;
+	font-size: 1rem;
+	font-style: normal;
+	-webkit-transition: font-size 0.25s ease-out 0s;
+	-moz-transition: font-size 0.25s ease-out 0s;
+	transition: font-size 0.25s ease-out 0s
+}
+
+.icon-caidan:before {
+	content: "\e609"
+}
+
+.icon-tuichu:before {
+	content: "\e601"
+}
+
+.icon-youhui1:before {
+	content: "\e603"
+}
+
+.icon-pingzhengdaoru:before {
+	content: "\e657"
+}
+
+.icon-youhui:before {
+	content: "\e648"
+}
+
+.icon-home:before {
+	content: "\e602"
+}
+
+.icon-iconlianxiwomen:before {
+	content: "\e662"
+}
+
+.icon-PAB:before {
+	content: "\e6ad"
+}
+
+.icon-yihuojiangjin:before {
+	content: "\e61e"
+}
+
+.icon-2:before {
+	content: "\e62c"
+}
+
+.icon-user:before {
+	content: "\e62d"
+}
+
+.icon-password:before {
+	content: "\e638"
+}
+
+.icon-personalinformation:before {
+	content: "\e65a"
+}
+
+.icon-jilu:before {
+	content: "\e6aa"
+}
+
+.icon-weixin:before {
+	content: "\e60e"
+}
+
+.icon-tubiao12:before {
+	content: "\e617"
+}
+
+.icon-kefu:before {
+	content: "\e605"
+}
+
+.icon-yinxingqia:before {
+	content: "\e630"
+}
+
+.icon-yinxingqia1:before {
+	content: "\e631"
+}
+
+.icon-a811:before {
+	content: "\e676"
+}
+
+.icon-daishoukuan:before {
+	content: "\e694"
+}
+
+.icon-edu:before {
+	content: "\e61a"
+}
+
+.icon-yanzhengma1:before {
+	content: "\e61b"
+}
+
+.icon-youxi:before {
+	content: "\e640"
+}
+
+.icon-ziyuanbaosongmobanxiazai:before {
+	content: "\e663"
+}
+
+.icon-yinxing:before {
+	content: "\e636"
+}
+
+.icon-fanhui:before {
+	content: "\e619"
+}
+
+.icon-luck:before {
+	content: "\e65b"
+}
+
+.icon-kefu1:before {
+	content: "\e60a"
+}
+
+.icon-rengongkefu:before {
+	content: "\e628"
+}
+
+.icon-qian:before {
+	content: "\e6ac"
+}
+
+.icon-dianziyouxi:before {
+	content: "\e604"
+}
+
+.icon-tiyu:before {
+	content: "\e607"
+}
+
+.icon-qukuan:before {
+	content: "\e681"
+}
+
+.icon-zhuce01:before {
+	content: "\e60f"
+}
+
+.icon-CEB:before {
+	content: "\e698";
+	color: #641e74
+}
+
+.icon-SRCB:before {
+	content: "\e70f";
+	color: #084c97
+}
+
+.icon-GDB:before {
+	content: "\e600";
+	color: #e50020
+}
+
+.icon-CMBC:before {
+	content: "\e610";
+	color: #009b89
+}
+
+.icon-BOCOM:before {
+	content: "\e611";
+	color: #113670
+}
+
+.icon-CIB:before {
+	content: "\e613";
+	color: #023d96
+}
+
+.icon-BOS:before {
+	content: "\e614";
+	color: #ffb200
+}
+
+.icon-PSBC:before {
+	content: "\e615";
+	color: #016f4a
+}
+
+.icon-CCB:before {
+	content: "\e618";
+	color: #0066b3
+}
+
+.icon-gerenzhongxinx:before {
+	content: "\e680"
+}
+
+.icon-gongzhonghaogongneng:before {
+	content: "\e609"
+}
+
+.icon-tongzhizhongxin:before {
+	content: "\e606"
+}
+
+.icon-yanzhengma:before {
+	content: "\e62f"
+}
+
+.icon-gerenzhongxin:before {
+	content: "\e60b"
+}
+
+.icon-SPDB:before {
+	content: "\e72b";
+	color: #0c1f64
+}
+
+.icon-ICBC:before {
+	content: "\e72f";
+	color: #e41e26
+}
+
+.icon-BCCB:before {
+	content: "\e730";
+	color: #e41e26
+}
+
+.icon-ABC:before {
+	content: "\e731";
+	color: #049175
+}
+
+.icon-HXB:before {
+	content: "\e733";
+	color: #e41e26
+}
+
+.icon-CNCB:before {
+	content: "\e73c";
+	color: #e41e26
+}
+
+.icon-BOCSH:before {
+	content: "\e692";
+	color: #e41e26
+}
+
+.icon-CMB:before {
+	content: "\e693";
+	color: #e41e26
+}
+
+.icon-BOC:before {
+	content: "\e692";
+	color: #e41e26
+}
+
+.icon-zhanneixin:before {
+	content: "\e62e"
+}
+
+.icon-chongzhi:before {
+	content: "\e62b"
+}
+
+.icon-guanyu:before {
+	content: "\e629"
+}
+
+.icon-vip:before {
+	content: "\e622"
+}
+
+.bar .icon-kefu,
+.bar .icon-weixin {
+	font-size: 1.4rem;
+	color: #ffd08c
+}
+
+.h2_2 {
+	margin-top: 2.2rem;
+	border-top: 1px solid #605ca8
+}
+
+[v-cloak] {
+	display: none
+}
+
+ul {
+	list-style: none
+}
+
+.page {
+	background: #06040c
+}
+
+.index .bar {
+	background: #000
+}
+
+.bar .button i.icon:first-child:last-child {
+	font-size: 1rem;
+	color: #ffd69b
+}
+
+.bar:after {
+	display: none
+}
+
+.titleIcon {
+	width: 1rem;
+	margin-top: 0.5rem
+}
+
+.titleIcon1 {
+	width: 1rem;
+	margin-top: 0.6rem
+}
+
+.index .title {
+	height: 2.2rem;
+	overflow: hidden;
+	color: #ffe9c3
+}
+
+.index .title img {
+	width: 4.6rem;
+	margin-top: 0.5rem
+}
+
+.index_panel.panel {
+	background: #0f101f
+}
+
+.popup.popup-login {
+	background: #05040b url("../img/login_bgf.jpg") no-repeat bottom;
+	background-size: cover
+}
+
+.popup-login .popup_logo {
+	width: 7.5rem;
+	margin: 0 auto;
+	padding-top: 1.5rem;
+	position: relative
+}
+
+.popup-login h3 {
+	color: #fff000;
+	text-align: center;
+	font-size: 0.85rem
+}
+
+.popup-login .list-block {
+	margin: 0
+}
+
+.popup-login .list-block .item-inner:after,
+.popup-login .list-block .item-inner:after,
+.popup-login .list-block ul,
+.popup-login .list-block ul:after,
+.popup-login .list-block ul:before,
+.popup-login .list-block ul:before {
+	background: none
+}
+
+.popup-login .list-block .item-title.label {
+	width: 2.5rem;
+	min-height: 1.4rem;
+	position: relative;
+	border-right: 1px solid #fff;
+	text-align: center;
+	margin-right: 0.5rem
+}
+
+.list-block .item-inner {
+	padding-bottom: 0.2rem
+}
+
+.popup-login .list-block .item-media+.item-inner {
+	margin-right: 0.75rem;
+	margin-left: 0;
+	border-bottom: 1px solid #959595
+}
+
+.popup-login .icon {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	font-size: 1rem;
+	color: #fff
+}
+
+.popup-login .list-block input {
+	color: #fff;
+	font-size: 0.8rem
+}
+
+.close_login {
+	position: absolute;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: bold;
+	right: 0;
+	color: #fff
+}
+
+.openLogin {
+	display: block;
+	max-width: 20rem;
+	margin: 0 auto
+}
+
+.goReg {
+	display: block;
+	width: 100%;
+	margin-top: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 0.7rem;
+	line-height: 2rem
+}
+
+.popup-login .loginErro {
+	color: red
+}
+
+.bar-nav .panel_open {
+	width: 1.5rem;
+	height: 2.2rem;
+	right: 0.5rem;
+	position: absolute;
+	z-index: 10
+}
+
+.index_panel ul {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.index_panel .content-block {
+	padding-left: 0;
+	padding-right: 0
+}
+
+.index_panel li {
+	position: relative;
+	font-size: 0.8rem;
+	color: #dbd29b;
+	height: 2.2rem
+}
+
+.index_panel li a {
+	display: block;
+	padding-left: 2.5rem;
+	color: #ffd08c;
+	font-weight: bold;
+	line-height: 2.2rem;
+	position: relative
+}
+
+.index_panel li span.badge {
+	position: absolute;
+	left: 9.5rem;
+	top: 0.7rem;
+	background: red;
+	color: #fff
+}
+
+.index_panel li span {
+	position: absolute;
+	color: #ffd08c;
+	top: 0.3rem;
+	left: 1rem
+}
+
+.index_panel p {
+	padding: 0 0.5rem
+}
+
+.bar-tab .tab-item.active {
+	color: #dbd29b
+}
+
+.login_yz {
+	width: 6rem
+}
+
+.login_btn.content-block {
+	margin-top: 0
+}
+
+.sentFotPwd {
+	display: block;
+	padding: 0.5rem;
+	text-align: right;
+	color: #fff000
+}
+
+.sentCode.button.button-fill[disabled='true'] {
+	background: #ccc;
+	color: #333
+}
+
+.foot_bar {
+	height: 2.25rem;
+	background: url("../img/foot_bar.png") no-repeat center;
+	background-size: 15rem;
+	line-height: 2.25rem;
+	color: #ffd08c;
+	font-size: 0.9rem;
+	text-align: center;
+	font-weight: bold
+}
+
+.foot_bar,
+.foot_nr {
+	padding: 0 0.5rem;
+	margin: 0 auto;
+	max-width: 39rem
+}
+
+.foot_nr {
+	padding-bottom: 0.5rem
+}
+
+.forgot {
+	height: 2.5rem
+}
+
+.forgot a {
+	float: right
+}
+
+.panel_info {
+	padding: 0 1rem;
+	color: #fff
+}
+
+.infoPortrait {
+	float: left
+}
+
+.infoPortrait img {
+	width: 100%
+}
+
+.panel_username {
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 1rem
+}
+
+.index .bar.tbet_bar {
+	background: url("../img/bar_bgf.png") repeat-x top
+}
+
+.tbet_bar.bar-tab:before {
+	display: none
+}
+
+.tbet_bar.bar-tab .tab-item {
+	color: #fff
+}
+
+.tbet_bar .tbicon {
+	width: 2rem
+}
+
+.tbet_bar .tbdes:before {
+	content: "\e694";
+	margin-left: 0.3rem
+}
+
+.tbet_bar .active .tbdes:before {
+	content: "\e6ac";
+	margin-left: 0.3rem;
+	color: #ffd08c
+}
+
+.tbet_bar .active .tab-label {
+	color: #ffd08c
+}
+
+.tbet_bar .tbdraw:before {
+	content: "\e631";
+	margin-left: 0.3rem
+}
+
+.tbet_bar .active .tbdraw:before {
+	content: "\e630";
+	margin-left: 0.3rem;
+	color: #ffd08c
+}
+
+.tbet_bar .tbcenter:before {
+	content: "\e60b";
+	margin-left: 0.3rem
+}
+
+.tbet_bar .active .tbcenter:before {
+	content: "\e680";
+	margin-left: 0.3rem;
+	color: #ffd08c
+}
+
+.tbet_bar .tbservice:before {
+	content: "\e628";
+	margin-left: 0.3rem
+}
+
+.tbet_bar .active .tbservice:before {
+	content: "\e60a";
+	margin-left: 0.3rem;
+	color: #ffd08c
+}
+
+.tbet_bar .tbgame {
+	background: url("../img/game.png") no-repeat center;
+	background-size: auto 100%
+}
+
+.tbet_bar .tbt-btn {
+	margin: -1rem auto 0;
+	height: 3.3rem;
+	width: 3.5rem;
+	line-height: 3.5rem;
+	background: url("../img/game.png") no-repeat top center;
+	background-size: 100%;
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-align: center
+}
+
+.login_status {
+	position: fixed;
+	right: 0.5rem;
+	bottom: 2rem;
+	z-index: 9999;
+	width: 2rem
+}
+
+.login_status img {
+	width: 100%
+}
+
+.icon_fff {
+	color: #fff
+}
+
+.icon_ggg {
+	color: #ffd08c;
+	margin-top: -0.2rem
+}
+
+.icon_14 {
+	font-size: 1.4rem
+}
+
+.icon_margin {
+	margin-top: 0;
+	margin-left: 0.4rem
+}
+
+.icon_color_red {
+	color: red
+}
+
+.VIP_name {
+	color: #ffd08c;
+	margin: 0
+}
+
+.VIP_level {
+	position: absolute;
+	line-height: 1rem;
+	margin: 0.2rem 0 0 0.5rem;
+	font-size: 0.5rem;
+	background: url("../img/vip/vip_name.png") no-repeat center;
+	background-size: 100%
+}
+
+.bar-tab .tab-item .icon.nav_img img {
+	width: 1.2rem
+}
+
+.tbet_bar.bar-tab .tab-item {
+	color: #ffe9c3
+}
+
+.bar-tab .tab-item .nav_img.active {
+	display: none
+}
+
+.bar-tab .tab-item.active .nav_img {
+	display: none
+}
+
+.bar-tab .tab-item.active .nav_img.active {
+	display: block
+}
